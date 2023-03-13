@@ -1,0 +1,259 @@
+.farm{
+    background-image:linear-gradient(0deg,rgba(6, 57, 108,0.5)10% ,rgba(6, 57, 108,0.5)10%) ,url(./media/header.jpg);
+    height: 80vh;
+    background-size: cover ;
+}
+
+.custcol{
+    color: rgb(6, 57, 108) ;
+}
+
+h1 ,h2 ,h3  {
+    font-family: 'Electrolize', sans-serif;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+}
+
+
+.customtitle{
+    font-size: 90px;
+}
+
+/* navbar */
+
+nav{
+    background-color: rgb(6, 57, 108);
+}
+
+.logo{
+    width: 50px;
+}
+
+
+
+blockquote {
+
+    margin: 0.25em 0;
+    padding: 0.35em 20px;
+    line-height: 1.45;
+    position: relative;
+    color: rgb(6, 57, 108);
+}
+
+blockquote:before {
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 130px;
+    position: absolute;
+    left: -50px;
+    top: -50px;
+    color: var(--blue);
+}    
+
+/* power lorem */
+
+.backfarm{
+    background-image:linear-gradient(0deg, rgba(6,57,108,1) 0%, rgba(6,57,108,1) 0%, rgba(6,57,108,0.7334905660377358) 0%) ,url(./media/power-plant-4712830_1280.jpg);
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* card sovrapposte */
+
+.custombgrcard1{
+    background-color: rgb(6, 57, 108);   
+    border: 5px solid white;
+    top: -80px;
+    left: 50px;
+}
+
+/* button */
+
+.custom-button{
+    background-color: rgb(6, 57, 108);
+    text-transform: uppercase;
+    color: white;
+    width: 140px;
+    height: 40px;
+}
+
+/* 4 citta' */
+
+.bgcali{
+    height: 200px;
+    background-image: url(https://picsum.photos/2000);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.bgcali::after{
+    content: '';
+    position: absolute;
+    background-image: linear-gradient(90deg, rgba(6,57,108,0.73) 0%, rgba(6,57,108,0.27) 30%, rgba(6,57,108,0) 53%);
+    height: 200px;
+    width: 100%;
+    top:-15px;
+    right: 25px;
+    z-index: -1;
+}
+
+.bgnev{
+    height: 200px;
+    background-image: url(https://picsum.photos/2001);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.bgnev::after{
+    content: '';
+    position: absolute;
+    background-image: linear-gradient(90deg, rgba(6,57,108,0.73) 0%, rgba(6,57,108,0.27) 30%, rgba(6,57,108,0) 53%);
+    height: 200px;
+    width: 100%;
+    top:-15px;
+    right: 25px;
+    z-index: -1;
+}
+
+.bgny{
+    height: 200px;
+    background-image: url(https://picsum.photos/2002);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.bgny::after{
+    content: '';
+    position: absolute;
+    background-image: linear-gradient(90deg, rgba(6,57,108,0.73) 0%, rgba(6,57,108,0.27) 30%, rgba(6,57,108,0) 53%);
+    height: 200px;
+    width: 100%;
+    top:-15px;
+    right: 25px;
+    z-index: -1;
+}
+
+.bgtex{
+    height: 200px;
+    background-image: url(https://picsum.photos/2003);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.bgtex::after{
+    content: '';
+    position: absolute;
+    background-image: linear-gradient(90deg, rgba(6,57,108,0.73) 0%, rgba(6,57,108,0.27) 30%, rgba(6,57,108,0) 53%);
+    height: 200px;
+    width: 100%;
+    top:-15px;
+    right: 25px;
+    z-index: -1;
+}
+
+/* some stuff */
+
+.bgsun{
+    height: 150px;
+    background-image:linear-gradient(0deg,rgba(6, 57, 108,0.5)10% ,rgba(6, 57, 108,0.5)10%) , url(./media/sun.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bgwind{
+    height: 150px;
+    background-image:linear-gradient(0deg,rgba(6, 57, 108,0.5)10% ,rgba(6, 57, 108,0.5)10%) , url(./media/wind.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bgwave{
+    height: 150px;
+    background-image:linear-gradient(0deg,rgba(6, 57, 108,0.5)10% ,rgba(6, 57, 108,0.5)10%) , url(./media/wave.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bggas{
+    height: 150px;
+    background-image:linear-gradient(0deg,rgba(6, 57, 108,0.5)10% ,rgba(6, 57, 108,0.5)10%) , url(./media/gas.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bgoil{
+    height: 150px;
+    background-image:linear-gradient(0deg,rgba(6, 57, 108,0.5)10% ,rgba(6, 57, 108,0.5)10%) , url(./media/oil.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bgatom{
+    height: 150px;
+    background-image:linear-gradient(0deg,rgba(6, 57, 108,0.5)10% ,rgba(6, 57, 108,0.5)10%) , url(./media/nuclear.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sometitle{
+    font-size: 50px;
+}
+
+.custbgblue{
+    background-color: rgb(6, 57, 108);
+    height: 300px;
+}
+
+/* card download */
+
+.custcard{
+    height: 200px;
+}
+
+/* barre description */
+
+.barra1{
+    height: 12px;
+    width: 25%;
+    background-color:rgb(6, 57, 108) ;
+}
+
+.barra2{
+    height: 12px;
+    background-color:rgb(6, 57, 108) ;
+    width: 30%;
+}
+
+.barra3{
+    height: 12px;
+    background-color:rgb(6, 57, 108) ;
+    width: 46%;
+}
+
+.barra4{
+    height: 12px;
+    background-color:rgb(6, 57, 108) ;
+    width: 56%;
+}
+
+.barra5{
+    height: 12px;
+    background-color:rgb(6, 57, 108) ;
+    width: 42%;
+}
+
+
+
+/* footer */
+
+.cardfooter{
+    background-color:rgb(6, 57, 108) ;
+}
